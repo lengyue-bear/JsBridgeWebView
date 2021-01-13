@@ -78,7 +78,6 @@ public class MainActivity extends AppCompatActivity {
 
         // 打开页面，也可以支持网络url
         mProgressBarWebView.loadUrl("file:///android_asset/demo.html");
-        //mProgressBarWebView.loadUrl("http://178.zbg.com/dot");
 
         mHandlers.add("jumpToLocal");
         mHandlers.add("callNative");
